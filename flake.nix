@@ -3,7 +3,10 @@
 
   outputs = { self, ... }: {
     templates = {
-
+      clojure = {
+        path = ./templates/clojure;
+        description = "Basic clojure template";
+      };
     };
   };
 }
